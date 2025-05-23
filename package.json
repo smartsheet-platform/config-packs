@@ -6,12 +6,12 @@
   "description": "",
   "author": "Smartsheet",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/smar-sean-sekora/config-packs#readme",
+  "homepage": "https://github.com/smartsheet-platform/config-packs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smar-sean-sekora/config-packs.git"
+    "url": "git+https://github.com/smartsheet-platform/config-packs.git"
   },
-  "bugs": "https://github.com/smar-sean-sekora/config-packs/issues",
+  "bugs": "https://github.com/smartsheet-platform/config-packs/issues",
   "keywords": [],
   "engines": {
     "node": ">=20.13.1"
