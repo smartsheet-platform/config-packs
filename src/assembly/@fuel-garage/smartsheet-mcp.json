@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "Smartsheet": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sekora/smar-mcp"
+      ],
+      "env": {
+        "SMARTSHEET_API_KEY": "{{SMARTSHEET_API_KEY}}",
+        "SMARTSHEET_ENDPOINT": "{{SMARTSHEET_ENDPOINT}}",
+        "ALLOW_DELETE_TOOLS": "{{ALLOW_DELETE_TOOLS}}"
+      }
+    }
+  }
+}
