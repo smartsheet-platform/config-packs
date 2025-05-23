@@ -4,7 +4,7 @@
 
 ## Available config packs:
 
-+ [`smar-mcp`](./src/assembly/roo-rocket/smar-mcp/)
++ [`Smartsheet MCP`](./src/assembly/roo-rocket/smartsheet/)
   + A Roo Code config-pack for a Smartsheet Model Context Protocol (MCP) server for interacting with the Smartsheet API.
 
 ## Deployment
