@@ -13,3 +13,8 @@
 ```bash
 pnpm run bundle
 ```
+
+### Generate Binary Hash
+```bash
+openssl dgst -sha256 -binary binary/smartsheet-mcp.zip | openssl base64 | tr '+/' '-_' | tr -d '='
+```
