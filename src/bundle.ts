@@ -16,6 +16,7 @@ async function entry() {
   await bundleConfigPack({
     rocketConfig: resolve(import.meta.dirname, 'assembly/roo-rocket/smartsheet/rocket.config.ts'),
     fuelDir: resolve(import.meta.dirname, 'assembly/@fuel-garage'),
+    frameDir: resolve(import.meta.dirname, 'assembly/frame'),
     outDir,
     outName: 'smartsheet-mcp',
   })
