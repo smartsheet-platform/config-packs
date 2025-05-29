@@ -4,7 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@smartsheet/smar-mcp"
+        "@smartsheet/smar-mcp@latest"
       ],
       "env": {
         "SMARTSHEET_API_KEY": "{{SMARTSHEET_API_KEY}}",
