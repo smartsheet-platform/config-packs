@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "Smartsheet": {
+    "smartsheet-mcp-server": {
       "command": "npx",
       "args": [
         "-y",
