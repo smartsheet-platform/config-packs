@@ -14,18 +14,9 @@ export default defineRocketConfig({
       id: '$input-SMARTSHEET_ENDPOINT',
       resolver: {
         operation: 'prompt',
-        label: 'Please enter your Smartsheet URL:',
+        label: 'Please enter your Smartsheet URL (https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server):',
         type: 'text',
-        initial: 'https://api.smartsheet.com/2.0',
-      },
-    },
-    {
-      id: '$input-ALLOW_DELETE_TOOLS',
-      resolver: {
-        operation: 'prompt',
-        label: 'Enable deletion operations like delete_rows (default: false):',
-        type: 'confirm',
-        initial: false,
+        initial: 'https://mcp.smartsheet.com',
       },
     },
   ],
@@ -33,7 +24,6 @@ export default defineRocketConfig({
   variablesResolver: {
     '{{SMARTSHEET_API_KEY}}': '$input-SMARTSHEET_API_KEY',
     '{{SMARTSHEET_ENDPOINT}}': '$input-SMARTSHEET_ENDPOINT',
-    '{{ALLOW_DELETE_TOOLS}}': '$input-ALLOW_DELETE_TOOLS',
   },
 
   filesBuildResolver: {
