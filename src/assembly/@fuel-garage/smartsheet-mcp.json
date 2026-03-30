@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "smartsheet-mcp-server": {
-      "httpUrl": "SMARTSHEET_ENDPOINT",
+      "httpUrl": "${SMARTSHEET_ENDPOINT}",
       "headers": {
         "Authorization": "Bearer ${SMARTSHEET_API_KEY}"
       }
