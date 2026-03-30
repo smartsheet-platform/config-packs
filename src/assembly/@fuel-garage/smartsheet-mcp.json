@@ -1,15 +1,9 @@
 {
   "mcpServers": {
     "smartsheet-mcp-server": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@smartsheet/smar-mcp@latest"
-      ],
-      "env": {
-        "SMARTSHEET_API_KEY": "{{SMARTSHEET_API_KEY}}",
-        "SMARTSHEET_ENDPOINT": "{{SMARTSHEET_ENDPOINT}}",
-        "ALLOW_DELETE_TOOLS": "{{ALLOW_DELETE_TOOLS}}"
+      "httpUrl": "${SMARTSHEET_ENDPOINT}",
+      "headers": {
+        "Authorization": "Bearer ${SMARTSHEET_API_KEY}"
       }
     }
   }

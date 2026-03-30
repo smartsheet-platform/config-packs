@@ -1,7 +1,7 @@
 {
   "name": "@smartsheet/mcp-server-config-pack",
   "type": "module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "packageManager": "pnpm@10.10.0",
   "description": "",
   "author": "Smartsheet",
